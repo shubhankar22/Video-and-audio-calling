@@ -1,7 +1,4 @@
-/**
- * @author Amir Sanni <amirsanni@gmail.com>
- * @date 23-Dec-2016
- */
+
 
 'use strict';
 
@@ -12,13 +9,9 @@ const spinnerClass = 'fa fa-spinner faa-spin animated';
 function setAppRoot(devFolderName, prodFolderName){
     var hostname = window.location.hostname;
 
-    /*
-     * set the appRoot
-     * This will work for both http, https with or without www
-     * @type String
-     */
+   
     
-    //attach trailing slash to both foldernames
+    
     var devFolder = devFolderName ? devFolderName+"/" : "";
     var prodFolder = prodFolderName ? prodFolderName+"/" : "";
     
